@@ -15,7 +15,7 @@ Project ini merupakan aplikasi berbasis console yang dibuat menggunakan bahasa G
 Berikut adalah flowchart dari setiap fitur yang ada dalam project-1
 
 1. Melihat Semua Data
-   ![Melihat Semua Data](project-1/assets/image/1.%20Show%20All.png)
+   <img src="/gambar.jpg" alt="Melihat Semua Data" width="400" height="600">
 
 2. Menambahkan Data Buku
    ![Menambahkan Data Buku](project-1/assets/image/2.%20Add%20Data%20Buku.png)
