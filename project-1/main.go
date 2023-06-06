@@ -15,7 +15,7 @@ func main() {
 		{"F001", "Bumi", "Tere Liye", "Gramedia", "Fantasy"},
 		{"F002", "Bulan", "Tere Liye", "Gramedia", "Fantasy"},
 		{"F003", "Matahari", "Tere Liye", "Gramedia", "Fantasy"},
-		{"F003", "Nama salah", "Tere Liye", "Gramedia", "Fantasy"},
+		{"F004", "Nama salah", "Tere Liye", "Gramedia", "Fantasy"},
 	}
 
 	fmt.Println("==================== Console Books Apps ====================")
@@ -123,6 +123,24 @@ func main() {
 				books[foundIndex] = newData
 
 				fmt.Println("Data buku berhasil diubah.")
+			} else {
+				fmt.Println("Data buku tidak ditemukan.")
+			}
+		} else if command == "delete data" || command == "5" {
+			fmt.Println("Masukkan ID Buku yang ingin dihapus:")
+			scanner.Scan()
+			filter := strings.ToUpper(scanner.Text())
+
+			foundIndex := -1
+			for i, v := range books {
+				if v[0] == filter {
+					foundIndex = i
+				}
+			}
+
+			if foundIndex != -1 {
+				books = append(books[:foundIndex], books[foundIndex+1:]...)
+				fmt.Println("Data buku berhasil dihapus.")
 			} else {
 				fmt.Println("Data buku tidak ditemukan.")
 			}
