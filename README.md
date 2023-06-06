@@ -15,19 +15,29 @@ Project ini merupakan aplikasi berbasis console yang dibuat menggunakan bahasa G
 Berikut adalah flowchart dari setiap fitur yang ada dalam project-1
 
 1. Melihat Semua Data
-   <img src="/project-1/assets/image/2. Show All.png" alt="Melihat Semua Data" width="400" height="600">
-
+   <br>
+   <br>
+   <img src="/project-1/assets/image/1. Show All.png" alt="Melihat Semua Data" style="width:30%;">
+   
 2. Menambahkan Data Buku
-   ![Menambahkan Data Buku](project-1/assets/image/2.%20Add%20Data%20Buku.png)
+   <br>
+   <br>
+   <img src="/project-1/assets/image/2. Add Data Buku.png" alt="Add Data" style="width:26%;">
 
 3. Menampilkan Data Berdasarkan ID
-   ![Menampilkan Data Berdasarkan ID](project-1/assets/image/3.%20Filter%20Data.png)
+   <br>
+   <br>
+   <img src="/project-1/assets/image/3. Filter Data.png" alt="Filter Data" style="width:52%;">
 
 4. Mengubah Salah Satu Data Menggunakan ID
-   ![Mengubah Salah Satu Data Menggunakan ID](project-1/assets/image/4.%20Update%20Data.png)
+   <br>
+   <br>
+   <img src="/project-1/assets/image/4. Update Data.png" alt="Update Data" style="width:52%;">
 
 5. Menghapus Salah Satu Data Berdasarkan ID
-   ![Menghapus Salah Satu Data Berdasarkan ID](project-1/assets/image/5.%20Delete%20Data.png)
+   <br>
+   <br>
+   <img src="/project-1/assets/image/5. Delete Data.png" alt="Delete Data" style="width:52%;">
 
 ## Time Complexity
 
